@@ -1,5 +1,4 @@
 import random  # Import the random module
-
 # Start a loop to roll the dice
 while True:
     # Ask the user for input
@@ -15,7 +14,8 @@ while True:
         print(f"{dice_one}, {dice_two}")
 
         # Print the sum of the two dice
-        print(dice_one + dice_two)
+        print("Total:",dice_one + dice_two)
+       
 
     # If the user inputs 'n', stop the game
     elif user == "n":
